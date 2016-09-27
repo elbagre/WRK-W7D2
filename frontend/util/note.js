@@ -22,6 +22,7 @@ class Note {
     this.oscillatorNode = createOscillator(freq);
     this.gainNode = createGainNode();
     this.oscillatorNode.connect(this.gainNode);
+    this.freq = freq;
   }
 
   start() {

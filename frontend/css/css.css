@@ -1,0 +1,18 @@
+
+.keyboard {
+  
+}
+
+.key {
+  width: 50px;
+  height: 300px;
+  float: left;
+  display: block;
+  border: 1px solid black;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
